@@ -15,7 +15,7 @@ import {
 console.log('Happy developing ✨')
 
 // Download M3U playlist
-const playlistUrl = 'https://hilay.tv/play.m3u';
+const playlistUrl = 'https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/combined-playlist.m3u';
 const outputDir = path.join(process.cwd(), 'data');
 const outputFile = path.join(outputDir, 'list.json');
 const outputM3uFile = path.join(outputDir, 'out.m3u');
@@ -140,7 +140,7 @@ async function main () {
     await zapdos(playlistUrl, {
         dedupe: true,
         cleanBadPatterns: true,
-        sillyFilter: true,
+        sillyFilter: false,
         aliveOnly: false,
     })
 }
