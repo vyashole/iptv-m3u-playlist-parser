@@ -9,8 +9,8 @@ import {
     enrichWithHealth,
     filterByHealth,
     normalizePlaylist,
-    generateM3U
-} from '../src/index.ts';
+    generateM3U, Playlist
+} from '../src';
 
 console.log('Happy developing ✨')
 
@@ -44,79 +44,105 @@ function cleanBadPatterns(m3uText: string) {
 
     console.log(`Found ${count} occurences of ",-1 bad pattern`);
 
-    const m3uTextClean = m3uText.replaceAll('",-1', '" ');
+    const m3uTextClean = m3uText.replace(/",-1/g, '" ');
 
     console.log("Replaced bad occurences")
     return m3uTextClean;
 }
 
-async function main() {
+export interface ZapdosOptions {
+    dedupe?: boolean;
+    cleanBadPatterns?: boolean;
+    sillyFilter?: boolean;
+    aliveOnly?: boolean;
+}
+
+function sillyFilter(playlist: Playlist) {
+    const allowedGroups = fs.readFileSync(allowedGroupsFile, 'utf-8').split('\n')
+    playlist = {
+        ...playlist,
+        items: playlist.items.filter((it) => {
+            return it.group?.[0] && allowedGroups.includes(it.group?.[0])
+        })
+    }
+    console.log(`Silly Filtered: ${playlist.items.length}`);
+    return playlist;
+}
+
+async function aliveOnly(playlist: Playlist) {
+    // Validate all streams with progress tracking
+    const health = await validatePlaylist(playlist, {
+        timeout: 5000,
+        concurrency: 20,
+        method: 'HEAD',
+        retries: 1,
+        onProgress: (done, total) => console.log(`Checking alive ${done}/${total}`)
+    });
+
+    // Get statistics
+    const stats = getHealthStatistics(health);
+    console.log(`Found ${stats.alive}/${stats.total} alive`);
+    console.log(`Average latency: ${stats.averageLatency.toFixed(0)}ms`);
+
+    // Filter to alive streams only
+    const enriched = enrichWithHealth(playlist, health);
+    return filterByHealth(enriched, true)
+}
+
+export async function zapdos(inputUrl: string, options: ZapdosOptions) {
     try {
-        await downloadFile(playlistUrl, downloadedM3uFile);
-
-        const m3uText = fs.readFileSync(downloadedM3uFile, 'utf8');
-
-        const m3uTextClean = cleanBadPatterns(m3uText);
-
-
         if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
-        const parsed = normalizePlaylist(parsePlaylist(m3uTextClean));
-        console.log(`Number of parsed items: ${parsed.items.length}`);
+        await downloadFile(inputUrl, downloadedM3uFile);
 
-        const deduped = {
-            ...parsed,
-            items: deduplicateEntries(parsed.items)
+        let m3uText = fs.readFileSync(downloadedM3uFile, 'utf8');
+
+        if (options.cleanBadPatterns) {
+            m3uText = cleanBadPatterns(m3uText);
         }
 
-        console.log(...deduped.warnings)
-        console.log(`Deduplicated: ${deduped.items.length}`);
+        let playlist = normalizePlaylist(parsePlaylist(m3uText));
 
-        const allowedGroups = fs.readFileSync(allowedGroupsFile, 'utf-8').split('\n')
+        console.log(`Number of parsed items: ${playlist.items.length}`);
 
-        const groupsFiltered = {
-          ...deduped,
-          items: deduped.items.filter((it) => {
-            return it.group?.[0] && allowedGroups.includes(it.group?.[0])
-          })
+        if (options.dedupe) {
+            playlist = {
+                ...playlist,
+                items: deduplicateEntries(playlist.items),
+            }
+            console.log(`Deduplicated: ${playlist.items.length}`);
         }
 
-        console.log(`Filtered: ${groupsFiltered.items.length}`);
+        if (options.sillyFilter) {
+            playlist = sillyFilter(playlist);
+        }
+
+        if (options.aliveOnly) {
+            playlist = await aliveOnly(playlist);
+        }
 
 
-
-        // // Validate all streams with progress tracking
-        // const health = await validatePlaylist(deduped, {
-        //     timeout: 5000,
-        //     concurrency: 20,
-        //     method: 'HEAD',
-        //     retries: 1,
-        //     onProgress: (done, total) => console.log(`Checking alive ${done}/${total}`)
-        // });
-
-        // // Get statistics
-        // const stats = getHealthStatistics(health);
-        // console.log(`Found ${stats.alive}/${stats.total} alive`);
-        // console.log(`Average latency: ${stats.averageLatency.toFixed(0)}ms`);
-
-        // // Filter to alive streams only
-        // const enriched = enrichWithHealth(deduped, health);
-        // const aliveOnly = filterByHealth(enriched, true)
-
-        fs.writeFileSync(outputFile, JSON.stringify(groupsFiltered, null, 2));
-        console.log(`Parsed playlist written to ${outputFile}`);
-
-        const outputM3u = generateM3U(groupsFiltered, {
+        const outputM3u = generateM3U(playlist, {
           sortByGroup: true,
           format: 'm3u'
         })
 
         fs.writeFileSync(outputM3uFile, outputM3u)
 
+        return outputM3u;
+
     } catch (err) {
-        console.error('Error:', err);
+        throw err;
     }
 }
 
-main().then(() => {
-});
+async function main () {
+    await zapdos(playlistUrl, {
+        dedupe: true,
+        cleanBadPatterns: true,
+        sillyFilter: true,
+        aliveOnly: false,
+    })
+}
+
+main().then()
