@@ -2,8 +2,8 @@ name: Nightly Zapdos
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *' # Runs every day at 00:00 UTC
+#  schedule:
+#    - cron: '0 0 * * *' # Runs every day at 00:00 UTC
 
 jobs:
   run-zapdos:
@@ -21,7 +21,7 @@ jobs:
         run: npm ci
 
       - name: Run zapdos script
-        run: tsx examples/parse-file.js
+        run: tsx examples/parse-file.ts
 
       - name: Commit output file
         run: |
