@@ -2,6 +2,9 @@ export const SOURCES = [
     'https://hilay.tv/play.m3u',
     'https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/combined-playlist.m3u',
     'https://iptv-org.github.io/iptv/categories/sports.m3u',
+    'https://iptv-org.github.io/iptv/languages/hin.m3u',
+    'https://iptv-org.github.io/iptv/languages/mar.m3u',
+    'https://iptv-org.github.io/iptv/languages/eng.m3u', 
 ]
 
 export const ALIVE_ONLY_DEFAULT = false;
