@@ -8,7 +8,9 @@ import {
     validatePlaylist,
 } from "../src";
 
-export async function fetchUrl(url: string | https.RequestOptions | URL): Promise<string> {
+type Url = string | https.RequestOptions | URL;
+
+export async function fetchUrl(url: Url): Promise<string> {
   return new Promise((resolve, reject) => {
     https.get(url, (res) => {
       if (res.statusCode && (res.statusCode < 200 || res.statusCode >= 300)) {
@@ -18,6 +20,7 @@ export async function fetchUrl(url: string | https.RequestOptions | URL): Promis
 
       let data = '';
       res.on('data', (chunk) => {
+        console.log(`Received ${chunk.length} bytes from ${url.hostname || url}`);
         data += chunk;
       });
 
@@ -30,7 +33,7 @@ export async function fetchUrl(url: string | https.RequestOptions | URL): Promis
   });
 }
 
-export async function getPlaylists(urls: string[]): Promise<string[]> {
+export async function getPlaylists(urls: Url[]): Promise<string[]> {
   const results = await Promise.allSettled(
     urls.map(url => fetchUrl(url))
   );

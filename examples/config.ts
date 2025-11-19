@@ -1,5 +1,11 @@
+import { HttpsProxyAgent } from "https-proxy-agent";
+
+const PROXY_URL = "http://36.110.143.55:8080";
+
+const agent = new HttpsProxyAgent(PROXY_URL);
+
 export const SOURCES = [
-    'https://hilay.tv/play.m3u',
+    {hostname: "hilay.tv", path: "/play.m3u", agent },
     'https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/combined-playlist.m3u',
     'https://iptv-org.github.io/iptv/categories/sports.m3u',
 ]
