@@ -21,7 +21,7 @@ jobs:
         run: npm ci
 
       - name: Run zapdos script
-        run: npx tsx examples/parse-file.ts
+        run: npx tsx examples/zapdos.ts
 
       - name: Commit output file
         run: |
