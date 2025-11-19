@@ -1,16 +1,18 @@
 import fs from "node:fs";
 import path from "node:path";
-import { generateM3U, mergePlaylists, normalizePlaylist, parsePlaylist } from "../src";
-import { ALIVE_ONLY_DEFAULT, CLEAN_BAD_PATTERNS_DEFAULT, DEDUPE_DEFAULT, OUTPUT_DIR, OUTPUT_FILE, SOURCES } from "./config";
-import { aliveOnly, cleanBadPatterns, dedupe, getPlaylists } from "./utils";
+import { generateM3U, mergePlaylists, normalizePlaylist, parsePlaylist, Playlist } from "../src";
+import { ALIVE_ONLY_DEFAULT, CLEAN_BAD_PATTERNS_DEFAULT, DEDUPE_DEFAULT, FILTER_GROUPS_I_DONT_LIKE_DEFAULT, OUTPUT_DIR, OUTPUT_FILE, SOURCES } from "./config";
+import { aliveOnly, cleanBadPatterns, dedupe, getPlaylists, Url } from "./utils";
+import { filterGroupsIDontLike } from "./group_filter";
 
 export interface ZapdosOptions {
     cleanBadPatterns?: boolean;
     dedupe?: boolean;
     aliveOnly?: boolean;
+    filterGroupsIDontLike?: boolean;
 }
 
-export async function zapdos(urls: string[], options: ZapdosOptions) {
+export async function zapdos(urls: Url[], options: ZapdosOptions) {
 
     console.log(`Fetching playlists from ${urls.length} sources...`);
     let m3uTexts = await getPlaylists(urls);
@@ -36,6 +38,11 @@ export async function zapdos(urls: string[], options: ZapdosOptions) {
         console.log(`Alive only: ${playlist.items.length}`);
     }
 
+    if (options.filterGroupsIDontLike) {
+        playlist = filterGroupsIDontLike(playlist);
+        console.log(`Groups I don't like filtered: ${playlist.items.length}`);
+    }
+
     return generateM3U(playlist, {
       sortByGroup: true,
       format: 'm3u'
@@ -48,6 +55,7 @@ async function main () {
         dedupe: DEDUPE_DEFAULT,
         cleanBadPatterns: CLEAN_BAD_PATTERNS_DEFAULT,
         aliveOnly: ALIVE_ONLY_DEFAULT,
+        filterGroupsIDontLike: FILTER_GROUPS_I_DONT_LIKE_DEFAULT
     });
 
     const outputDir = path.join(process.cwd(), OUTPUT_DIR);

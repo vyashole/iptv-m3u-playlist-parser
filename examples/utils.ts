@@ -8,7 +8,7 @@ import {
     validatePlaylist,
 } from "../src";
 
-type Url = string | https.RequestOptions | URL;
+export type Url = string | https.RequestOptions | URL;
 
 export async function fetchUrl(url: Url): Promise<string> {
   return new Promise((resolve, reject) => {
@@ -20,7 +20,8 @@ export async function fetchUrl(url: Url): Promise<string> {
 
       let data = '';
       res.on('data', (chunk) => {
-        console.log(`Received ${chunk.length} bytes from ${url.hostname || url}`);
+        const urlString = typeof url === 'string' ? url : url.hostname || 'unknown';
+        console.log(`Received ${chunk.length} bytes from ${urlString}`);
         data += chunk;
       });
 
