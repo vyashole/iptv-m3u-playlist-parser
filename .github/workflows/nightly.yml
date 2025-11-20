@@ -3,7 +3,7 @@ name: Nightly Zapdos
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *' # Runs every day at 01:00 UTC
+    - cron: '5 */2 * * *'
 
 jobs:
   run-zapdos:
