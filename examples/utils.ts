@@ -57,10 +57,7 @@ export function cleanBadPatterns(m3uText: string) {
 
     console.log(`Found ${count} occurences of ",-1 bad pattern`);
 
-    const m3uTextClean = m3uText.replace(/",-1/g, '" ');
-
-    console.log("Replaced bad occurences")
-    return m3uTextClean;
+    return m3uText.replace(/",-1/g, '" ');
 }
 
 export async function aliveOnly(playlist: Playlist) {
