@@ -44,7 +44,7 @@ export async function getPlaylists(urls: Url[]): Promise<string[]> {
     if (result.status === 'fulfilled') {
       playlists.push(result.value);
     } else {
-      console.error(`Error fetching ${urls[index]}: ${result.reason.message}`);
+      console.error(`Error fetching source ${index} : ${result.reason.message}`);
     }
   });
 
