@@ -8,7 +8,7 @@ const agent = new HttpsProxyAgent(PROXY_URL, {
 
 
 export const SOURCES = [
-    {hostname: "hilay.tv", path: "/play.m3u", agent},
+    //{hostname: "hilay.tv", path: "/play.m3u", agent},
     'https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/CricHD.m3u',
     'https://hilay.tv/play.m3u',
     'https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/combined-playlist.m3u',
