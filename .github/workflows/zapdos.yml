@@ -8,6 +8,7 @@ on:
 jobs:
   run-zapdos:
     runs-on: ubuntu-latest
+    environment: Zapdos
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -21,6 +22,8 @@ jobs:
         run: npm ci
 
       - name: Run zapdos script
+        env:
+          SOURCES: ${{ secrets.SOURCES }}
         run: npx tsx examples/zapdos.ts
 
       - name: Commit output file

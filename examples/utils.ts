@@ -20,8 +20,7 @@ export async function fetchUrl(url: Url): Promise<string> {
 
       let data = '';
       res.on('data', (chunk) => {
-        const urlString = typeof url === 'string' ? url : url.hostname || 'unknown';
-        console.log(`Received ${chunk.length} bytes from ${urlString}`);
+        console.log(`Received ${chunk.length} bytes`);
         data += chunk;
       });
 

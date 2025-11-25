@@ -1,19 +1,8 @@
-import {HttpsProxyAgent} from "https-proxy-agent";
+const SOURCES = process.env.SOURCES
+    ? process.env.SOURCES.split(",").map(s => s.trim())
+    : [];
 
-const PROXY_URL = "https://8.212.168.170:808";
-
-const agent = new HttpsProxyAgent(PROXY_URL, {
-    rejectUnauthorized: false
-});
-
-
-export const SOURCES = [
-    //{hostname: "hilay.tv", path: "/play.m3u", agent},
-    'https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/CricHD.m3u',
-    'https://hilay.tv/play.m3u',
-    'https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/combined-playlist.m3u',
-    'https://iptv-org.github.io/iptv/categories/sports.m3u',
-]
+export { SOURCES };
 
 export const ALIVE_ONLY_DEFAULT = false;
 export const DEDUPE_DEFAULT = true;
