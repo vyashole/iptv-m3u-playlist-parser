@@ -13,8 +13,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="ZeeBusiness.in@SD" tvg-logo="https://i.imgur.com/vkWBtL4.png" group-title="Business" -1="true",Zee Business (720p)
 #EXTGRP:Business
 https://dwby15d04agvq.cloudfront.net/index_1.m3u8
-#EXTINF:-1 tvg-id="fallback" tvg-name="Fallback Channel" tvg-logo="https://abusaeeidx.github.io/Support/images/offline.jpg" group-title="CricHD 1" -1="true",Fallback Channel
-#EXTGRP:CricHD 1
+#EXTINF:-1 tvg-id="fallback" tvg-name="Fallback Channel" tvg-logo="https://abusaeeidx.github.io/Support/images/offline.jpg" group-title="CricHD" -1="true",Fallback Channel
+#EXTGRP:CricHD
 https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8
 #EXTINF:-1 tvg-id="crich2" tvg-name="Sky Sports Cricket" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/V2.0/sky_sports_cricket.png" group-title="CricHD 2" -1="true",Sky Sports Cricket
 #EXTGRP:CricHD 2
@@ -8622,7 +8622,7 @@ https://jmp2.uk/stvp-KRBB420000769
 #EXTINF:-1 tvg-id="KRBB4200016TZ-kr" tvg-name="SBS Í∂ÅÍ∏àÌïú Ïù¥ÏïºÍ∏∞ Y" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBB4200016TZ_20250402T010422SQUARE.png" tvg-chno="685" group-title="hilaytv" -1="true",SBS Í∂ÅÍ∏àÌïú Ïù¥ÏïºÍ∏∞ Y
 #EXTGRP:hilaytv
 https://jmp2.uk/stvp-KRBB4200016TZ
-#EXTINF:-1 tvg-id="KRBB4200017HA-kr" tvg-name="SBS Í∑∏Í≤ÉÏù¥ ÏïåÍ≥†Ïã∂Îã§" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBB4200017HA_20250402T010428SQUARE.png" tvg-chno="686" group-title="hilaytv" -1="true",SBS Í∑∏Í≤ÉÏù¥ ÏïåÍ≥†Ïã∂Îã§
+#EXTINF:-1 tvg-id="KRBB4200017HA-kr" tvg-name="SBS Í∑∏Í≤ÉÏù¥ ÏïåÍ≥†Ïã∂Îã§" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBB4200017HA_20250402T010428SQUARE.png" tvg-chno="686" group-title="hilaytv" -1="true",SBS Í∑∏��≤ÉÏù¥ ÏïåÍ≥†Ïã∂Îã§
 #EXTGRP:hilaytv
 https://jmp2.uk/stvp-KRBB4200017HA
 #EXTINF:-1 tvg-id="KRBB4200005CK-kr" tvg-name="SBS ÎÇ¥ ÎÇ®ÏûêÏùò Ïó¨Ïûê" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBB4200005CK_20250402T010431SQUARE.png" tvg-chno="633" group-title="hilaytv" -1="true",SBS ÎÇ¥ ÎÇ®ÏûêÏùò Ïó¨Ïûê
