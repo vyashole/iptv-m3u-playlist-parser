@@ -1781,8 +1781,8 @@ https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-a
 #EXTGRP:Cooking
 #EXTGRP:Lifestyle
 http://45.148.145.57/IN_FOODFOOD/index.m3u8
-#EXTINF:-1 tvg-id="fallback" tvg-name="Fallback Channel" tvg-logo="https://abusaeeidx.github.io/Support/images/offline.jpg" group-title="CricHD 1" -1="true",Fallback Channel
-#EXTGRP:CricHD 1
+#EXTINF:-1 tvg-id="fallback" tvg-name="Fallback Channel" tvg-logo="https://abusaeeidx.github.io/Support/images/offline.jpg" group-title="CricHD 2" -1="true",Fallback Channel
+#EXTGRP:CricHD 2
 https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8
 #EXTINF:-1 tvg-id="LRTPlius.lt@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/512px-LRT_Plius_Logo_2022.svg.png" group-title="Culture;Sports" -1="true",LRT Plius (1080p) [Geo-blocked]
 #EXTGRP:Culture
@@ -33064,7 +33064,7 @@ https://jmp2.uk/sam-KR2000006NC.m3u8
 #EXTINF:-1 tvg-id="samsung-KR2000007LI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR2000007LI_20250827T010208SQUARE.png" tvg-chno="651" group-title="samsung" -1="true",가우스전자
 #EXTGRP:samsung
 https://jmp2.uk/sam-KR2000007LI.m3u8
-#EXTINF:-1 tvg-id="samsung-KR2000003T6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR2000003T6_20250827T010243SQUARE.png" tvg-chno="652" group-title="samsung" -1="true",얼어죽을 연애따위
+#EXTINF:-1 tvg-id="samsung-KR2000003T6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR2000003T6_20250827T010243SQUARE.png" tvg-chno="652" group-title="samsung" -1="true",얼어죽을 연애���위
 #EXTGRP:samsung
 https://jmp2.uk/sam-KR2000003T6.m3u8
 #EXTINF:-1 tvg-id="samsung-KRBC4000003J2" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC4000003J2_20250827T010250SQUARE.png" tvg-chno="653" group-title="samsung" -1="true",전우치
