@@ -16,6 +16,9 @@ https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b
 #EXTGRP:Series
 #EXTGRP:Sports
 http://185.246.209.113/DISCOVERYHD/index.m3u8
+#EXTINF:-1 tvg-name="Welcome to PlayZ TV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyniKyW9pUz1OKx5bgzLASwGVSuP0e7hX9FxVMTJMHxhu8X0tpucgSplBZgM8pCYrJJH0P2_dTC1-wzp4mMUU4sKnOzghGPCwWdbYOOa4jTyhpr7ydNj-UK-bc56IMsk2H3WZJ-SzSZIk0dTpyABCFR2_zjC2_c86W1pv7odFBT_Y-hyJs62g-3zCJkPGd/s1024/1000398131.png" group-title="CricHD 1" -1="true",Welcome to PlayZ TV
+#EXTGRP:CricHD 1
+https://playztv.pages.dev/promo/master.m3u8
 #EXTINF:-1 tvg-id="fallback" tvg-name="Fallback Channel" tvg-logo="https://abusaeeidx.github.io/Support/images/offline.jpg" group-title="CricHD 2" -1="true",Fallback Channel
 #EXTGRP:CricHD 2
 https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8
@@ -43,12 +46,12 @@ https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b5160000.m3
 #EXTINF:-1 tvg-id="NDTVIndia.in" tvg-name="NDTV India" tvg-logo="https://i.imgur.com/QjJYohG.png" tvg-chno="1" group-title="India" -1="true" tvg-country="IN",NDTV India
 #EXTGRP:India
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
-#EXTINF:-1 tvg-id="ABPNews.in" tvg-name="ABP News" tvg-logo="https://i.imgur.com/DKHUFVQ.png" tvg-chno="2" group-title="India" -1="true" tvg-country="IN",ABP News
+#EXTINF:-1 tvg-id="[ABP News](https://abplive.com)" tvg-name="ABP News" tvg-logo="https://i.imgur.com/DKHUFVQ.png" tvg-chno="2" group-title="India" -1="true" tvg-country="IN",ABP News
 #EXTGRP:India
-https://abplivetv.pc.cdn.bitgravity.com/httppush/abp_livetv/abp_abpnews/master.m3u8
-#EXTINF:-1 tvg-id="ABPAnanda.in" tvg-name="ABP Ananda" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/500px-ABP_Ananda_logo.svg.png" tvg-chno="3" group-title="India" -1="true" tvg-country="IN",ABP Ananda
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
+#EXTINF:-1 tvg-id="[ABP Ananda](https://bengali.abplive.com/)" tvg-name="ABP Ananda" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/500px-ABP_Ananda_logo.svg.png" tvg-chno="3" group-title="India" -1="true" tvg-country="IN",ABP Ananda
 #EXTGRP:India
-https://abplivetv.pc.cdn.bitgravity.com/httppush/abp_livetv/abp_ananda/master.m3u8
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8
 #EXTINF:-1 tvg-id="DDNational.in" tvg-name="DD National Ⓨ" tvg-logo="https://i.imgur.com/MohlE5B.png" tvg-chno="4" group-title="India" -1="true" tvg-country="IN",DD National Ⓨ
 #EXTGRP:India
 https://www.youtube.com/doordarshan/live
@@ -82,6 +85,9 @@ https://www.youtube.com/watch?v=nSpwwcHVp80
 #EXTINF:-1 tvg-id="RepublicBharat.in" tvg-name="Republic Bharat Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Republic_Bharat_logo.svg/500px-Republic_Bharat_logo.svg.png" tvg-chno="14" group-title="India" -1="true" tvg-country="IN",Republic Bharat Ⓨ
 #EXTGRP:India
 https://www.youtube.com/watch?v=3DbTO_AMhhc
+#EXTINF:-1 tvg-id="NDTVProfit.com" tvg-name="NDTV Profit" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/NDTV_Profit.svg/1280px-NDTV_Profit.svg.png" tvg-chno="15" group-title="India" -1="true" tvg-country="IN",NDTV Profit
+#EXTGRP:India
+https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
 #EXTINF:-1 tvg-id="ADOTV.bj@SD" tvg-logo="https://i.imgur.com/pxFamLr.png" group-title="Kids;Sports" -1="true",ADO TV (720p)
 #EXTGRP:Kids
 #EXTGRP:Sports
