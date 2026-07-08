@@ -418,6 +418,9 @@ https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8
 #EXTINF:-1 tvg-id="BarcaTV.es@SD" tvg-logo="https://i.imgur.com/d8x7c8i.png" group-title="Sports" -1="true",Barca TV
 #EXTGRP:Sports
 https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8
+#EXTINF:-1 tvg-id="beINSportsHaber.tr@SD" tvg-logo="https://i.imgur.com/QWo0x7S.jpg" group-title="Sports" -1="true",beIN Sports Haber (720p)
+#EXTGRP:Sports
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1 tvg-id="beINSportsUSA.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="Sports" -1="true",beIN Sports USA (720p)
 #EXTGRP:Sports
 http://23.237.104.106:8080/USA_BEIN/index.m3u8
@@ -486,9 +489,9 @@ https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
 #EXTINF:-1 tvg-id="ColimdoTV.do@SD" tvg-logo="https://i.imgur.com/ZeUgLCa.png" group-title="Sports" -1="true",ColimdoT TV (720p)
 #EXTGRP:Sports
 https://cnn.livestreaminggroup.info:3132/live/colimdotvlive.m3u8
-#EXTINF:-1 tvg-id="Combate.br@SD" tvg-logo="https://i.imgur.com/ZPYK5jr.png" group-title="Sports" -1="true",Combate Global
+#EXTINF:-1 tvg-id="Combate.br@SD" tvg-logo="https://i.imgur.com/ZPYK5jr.png" group-title="Sports" -1="true",Combate (720p)
 #EXTGRP:Sports
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=960
+http://143.14.134.107:80/167/index.m3u8
 #EXTINF:-1 tvg-id="CricketGold.au@SD" tvg-logo="https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png" group-title="Sports" -1="true",Cricket Gold (1080p)
 #EXTGRP:Sports
 https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8
@@ -645,9 +648,9 @@ https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playl
 #EXTINF:-1 tvg-id="FoxDeportes.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/960px-FOX_Deportes_logo.png" group-title="Sports" -1="true",Fox Deportes (1280p)
 #EXTGRP:Sports
 https://cors-proxy.cooks.fyi/http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="Sports" -1="true",FOX Sports (720p)
+#EXTINF:-1 tvg-id="FoxSports.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="Sports" -1="true",Fox Sports (720p)
 #EXTGRP:Sports
-https://jmp2.uk/plu-5a74b8e1e22a61737979c6bf.m3u8
+http://45.6.4.35/FOX_SPORT/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us@HD" tvg-logo="https://i.imgur.com/O9BapV9.png" group-title="Sports" -1="true",Fox Sports 1 (720p)
 #EXTGRP:Sports
 https://streamvidex.qzz.io/videx/fox1usa/index.m3u8
@@ -703,9 +706,18 @@ https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
 #EXTINF:-1 tvg-id="GolfChannel.cz@SD" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/golfchannel.png" group-title="Sports" -1="true",Golf Channel
 #EXTGRP:Sports
 https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
+#EXTINF:-1 tvg-id="GolfChannel.us@SD" tvg-logo="https://i.imgur.com/Lgux6Ik.png" group-title="Sports" -1="true",Golf Channel (1080p)
+#EXTGRP:Sports
+http://23.237.104.106:8080/USA_GOLF/index.m3u8
+#EXTINF:-1 tvg-id="GolfChannelLatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golf_Channel_Logo_2018.png/960px-Golf_Channel_Logo_2018.png" group-title="Sports" -1="true",Golf Channel Latin America (1080p)
+#EXTGRP:Sports
+http://72.1.184.5:8089/play/a0cw/index.m3u8
 #EXTINF:-1 tvg-id="GolfZone.pl@SD" tvg-logo="https://i.ibb.co/ZR8cRj8d/Golf-Zone.png" group-title="Sports" -1="true",Golf Zone (1080p)
 #EXTGRP:Sports
 http://91.146.94.234:10001/play/a04b
+#EXTINF:-1 tvg-id="GolTVLatinAmerica.us@SD" tvg-logo="https://i.imgur.com/pypul3s.png" group-title="Sports" -1="true",GolTV Latin America (720p)
+#EXTGRP:Sports
+http://177.234.249.178:8888/GOLTV/index.m3u8
 #EXTINF:-1 tvg-id="HardKnocks.ca@SD" tvg-logo="https://i.imgur.com/nt9B6jx.png" group-title="Sports" -1="true" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",Hard Knocks (1080p)
 #EXTGRP:Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
@@ -889,6 +901,9 @@ http://41.205.70.146/BEINSPORT1/index.m3u8
 #EXTINF:-1 tvg-id="NWSport2.tg@SD" group-title="Sports" -1="true",NW Sport 2 (1080p)
 #EXTGRP:Sports
 http://41.205.70.146/M6/index.m3u8
+#EXTINF:-1 tvg-id="OkkoFutbol.ru@SD" tvg-logo="https://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/852f4b92-cae5-463e-aad6-cd8844c5a49/logo/8986.png" group-title="Sports" -1="true",Okko Futbol (576p)
+#EXTGRP:Sports
+http://178.124.179.122:8080/Setanta1/index.m3u8
 #EXTINF:-1 tvg-id="OlympicChannel.es@SD" tvg-logo="https://i.imgur.com/wPQVVtj.png" group-title="Sports" -1="true",Olympics Channel (1080p) [Geo-blocked]
 #EXTGRP:Sports
 https://ocshls-2-olympicchannel.akamaized.net/ocshls/OCTV_1.m3u8
@@ -1015,6 +1030,9 @@ https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-a
 #EXTINF:-1 tvg-id="PremierSports2.ph@SD" tvg-logo="https://i.imgur.com/UQeXWd2.png" group-title="Sports" -1="true",Premier Sports 2 (1080p)
 #EXTGRP:Sports
 https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
+#EXTINF:-1 tvg-id="PremiereClubes.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png" group-title="Sports" -1="true",Premiere Clubes (720p)
+#EXTGRP:Sports
+http://45.162.231.38:7779/Premiere_Clubes/index.m3u8
 #EXTINF:-1 tvg-id="PremiereFC1.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png" group-title="Sports" -1="true",Premiere FC 1
 #EXTGRP:Sports
 https://stm.sinalmycn.com/20000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
