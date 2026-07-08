@@ -16,8 +16,8 @@ https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b
 #EXTGRP:Series
 #EXTGRP:Sports
 http://40.160.24.55/USA_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="fallback" tvg-name="Fallback Channel" tvg-logo="https://abusaeeidx.github.io/Support/images/offline.jpg" group-title="CricHD 2" -1="true",Fallback Channel
-#EXTGRP:CricHD 2
+#EXTINF:-1 tvg-id="fallback" tvg-name="Fallback Channel" tvg-logo="https://abusaeeidx.github.io/Support/images/offline.jpg" group-title="CricHD 1" -1="true",Fallback Channel
+#EXTGRP:CricHD 1
 https://raw.githubusercontent.com/HelloPeopleTv4you/IPTV-Playlist/refs/heads/main/offline/index.m3u8
 #EXTINF:-1 tvg-id="LRTPlius.lt@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/960px-LRT_Plius_Logo_2022.svg.png" group-title="Culture;Sports" -1="true",LRT Plius (1080p) [Geo-blocked]
 #EXTGRP:Culture
@@ -40,51 +40,6 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTGRP:General
 #EXTGRP:Sports
 https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NDTVIndia.in" tvg-name="NDTV India" tvg-logo="https://i.imgur.com/QjJYohG.png" tvg-chno="1" group-title="India" -1="true" tvg-country="IN",NDTV India
-#EXTGRP:India
-https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
-#EXTINF:-1 tvg-id="[ABP News](https://abplive.com)" tvg-name="ABP News" tvg-logo="https://i.imgur.com/DKHUFVQ.png" tvg-chno="2" group-title="India" -1="true" tvg-country="IN",ABP News
-#EXTGRP:India
-https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
-#EXTINF:-1 tvg-id="[ABP Ananda](https://bengali.abplive.com/)" tvg-name="ABP Ananda" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/500px-ABP_Ananda_logo.svg.png" tvg-chno="3" group-title="India" -1="true" tvg-country="IN",ABP Ananda
-#EXTGRP:India
-https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8
-#EXTINF:-1 tvg-id="DDNational.in" tvg-name="DD National Ⓨ" tvg-logo="https://i.imgur.com/MohlE5B.png" tvg-chno="4" group-title="India" -1="true" tvg-country="IN",DD National Ⓨ
-#EXTGRP:India
-https://www.youtube.com/doordarshan/live
-#EXTINF:-1 tvg-id="DDNews.in" tvg-name="DD News Ⓨ" tvg-logo="https://i.imgur.com/znnVCEf.png" tvg-chno="5" group-title="India" -1="true" tvg-country="IN",DD News Ⓨ
-#EXTGRP:India
-https://www.youtube.com/c/ddnews/live
-#EXTINF:-1 tvg-id="DDIndia.in" tvg-name="DD India Ⓨ" tvg-logo="https://i.imgur.com/45uptR8.png" tvg-chno="6" group-title="India" -1="true" tvg-country="IN",DD India Ⓨ
-#EXTGRP:India
-https://www.youtube.com/DDIndia/live
-#EXTINF:-1 tvg-id="DDBharati.in" tvg-name="DD Bharati Ⓨ" tvg-logo="https://i.imgur.com/4tfUIEo.png" tvg-chno="7" group-title="India" -1="true" tvg-country="IN",DD Bharati Ⓨ
-#EXTGRP:India
-https://www.youtube.com/@ddbharati/live
-#EXTINF:-1 tvg-id="DDKisan.in" tvg-name="DD Kisan Ⓨ" tvg-logo="https://i.imgur.com/x56WJEa.png" tvg-chno="8" group-title="India" -1="true" tvg-country="IN",DD Kisan Ⓨ
-#EXTGRP:India
-https://www.youtube.com/@DDKisan/live
-#EXTINF:-1 tvg-id="DDUrdu.in" tvg-name="DD Urdu Ⓨ" tvg-logo="https://i.imgur.com/OiQPS34.png" tvg-chno="9" group-title="India" -1="true" tvg-country="IN",DD Urdu Ⓨ
-#EXTGRP:India
-https://www.youtube.com/@DDUrdu/live
-#EXTINF:-1 tvg-id="IndiaToday.in" tvg-name="India Today Ⓨ" tvg-logo="https://i.imgur.com/C7KK3Fd.png" tvg-chno="10" group-title="India" -1="true" tvg-country="IN",India Today Ⓨ
-#EXTGRP:India
-https://www.youtube.com/watch?v=sYZtOFzM78M
-#EXTINF:-1 tvg-id="AajTak.in" tvg-name="Aaj Tak Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/Aaj_tak_logo.png" tvg-chno="11" group-title="India" -1="true" tvg-country="IN",Aaj Tak Ⓨ
-#EXTGRP:India
-https://www.youtube.com/watch?v=Nq2wYlWFucg
-#EXTINF:-1 tvg-id="IndiaTV.in" tvg-name="India TV Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/60/India_tv_logo-en.png/500px-India_tv_logo-en.png" tvg-chno="12" group-title="India" -1="true" tvg-country="IN",India TV Ⓨ
-#EXTGRP:India
-https://www.youtube.com/watch?v=e1FIApIafWE
-#EXTINF:-1 tvg-id="TV9Bharatvarsh.in" tvg-name="TV9 Bharatvarsh Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/TV9_Bharatvarsh.svg/500px-TV9_Bharatvarsh.svg.png" tvg-chno="13" group-title="India" -1="true" tvg-country="IN",TV9 Bharatvarsh Ⓨ
-#EXTGRP:India
-https://www.youtube.com/watch?v=nSpwwcHVp80
-#EXTINF:-1 tvg-id="RepublicBharat.in" tvg-name="Republic Bharat Ⓨ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Republic_Bharat_logo.svg/500px-Republic_Bharat_logo.svg.png" tvg-chno="14" group-title="India" -1="true" tvg-country="IN",Republic Bharat Ⓨ
-#EXTGRP:India
-https://www.youtube.com/watch?v=3DbTO_AMhhc
-#EXTINF:-1 tvg-id="NDTVProfit.com" tvg-name="NDTV Profit" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/NDTV_Profit.svg/1280px-NDTV_Profit.svg.png" tvg-chno="15" group-title="India" -1="true" tvg-country="IN",NDTV Profit
-#EXTGRP:India
-https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
 #EXTINF:-1 tvg-id="ADOTV.bj@SD" tvg-logo="https://i.imgur.com/pxFamLr.png" group-title="Kids;Sports" -1="true",ADO TV (720p)
 #EXTGRP:Kids
 #EXTGRP:Sports
