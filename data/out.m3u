@@ -43,7 +43,7 @@ https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="Prime.sy@HD" tvg-logo="https://prime1tv.com/wp-content/uploads/2025/12/7-1.png" group-title="General;Sports" -1="true",Prime (Syria) (1080p)
 #EXTGRP:General
 #EXTGRP:Sports
-https://mn-nl.mncdn.com/primetv/live/index.m3u8
+https://cdn.bestream.io/prime/prime.m3u8
 #EXTINF:-1 tvg-id="TVRSport.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/TVR_Sport_Logo_2023.svg/960px-TVR_Sport_Logo_2023.svg.png" group-title="General;Sports" -1="true",TVR Sport
 #EXTGRP:General
 #EXTGRP:Sports
@@ -152,10 +152,6 @@ https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8
 #EXTGRP:News
 #EXTGRP:Sports
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
-#EXTINF:-1 tvg-id="ESPNews.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/960px-ESPNews.svg.png" group-title="News;Sports" -1="true",ESPNews (720p)
-#EXTGRP:News
-#EXTGRP:Sports
-http://41.205.93.154/ESPNNEWS/index.m3u8
 #EXTINF:-1 tvg-id="MonsterJam.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/23824964-562b-4498-9eaa-d6262cb7e0c3/Monster_Jam_Logo_on_Transparent_1500x1000_Casey_Murawski.png" group-title="Outdoor;Sports" -1="true",Monster Jam (720p)
 #EXTGRP:Outdoor
 #EXTGRP:Sports
@@ -346,6 +342,9 @@ https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTGRP:Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
+#EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" tvg-logo="https://i.imgur.com/EOXnU15.png" group-title="Sports" -1="true",Canal+ Sport (1080p) [Geo-blocked]
+#EXTGRP:Sports
+http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8
 #EXTINF:-1 tvg-id="CBCSport.az@HD" tvg-logo="https://i.imgur.com/3mEdjuq.png" group-title="Sports" -1="true",CBC Sport [Geo-blocked]
 #EXTGRP:Sports
 https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
@@ -626,6 +625,9 @@ http://stream.mcquack.net/416/index.m3u8
 #EXTINF:-1 tvg-id="GolazoNetwork.us@SD" tvg-logo="https://images.pluto.tv/channels/63a0e33a45264d000850ed7e/colorLogoPNG_1731835813404.png" group-title="Sports" -1="true",Golazo Network (720p)
 #EXTGRP:Sports
 https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
+#EXTINF:-1 tvg-id="GolfPlus.fr@SD" tvg-logo="https://i.imgur.com/WHnddkg.png" group-title="Sports" -1="true",Golf + (1080p) [Geo-blocked]
+#EXTGRP:Sports
+http://tv.streambox.fr/live/testlivestream/testlivestream/49.m3u8
 #EXTINF:-1 tvg-id="GolfChannel.cz@SD" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/golfchannel.png" group-title="Sports" -1="true",Golf Channel
 #EXTGRP:Sports
 https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
@@ -1094,9 +1096,6 @@ https://cloudplay-sonyliv.pages.dev/ten4hd.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen5.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="Sports" -1="true",Sony Sports Ten 5 (1080p)
 #EXTGRP:Sports
 https://cloudplay-sonyliv.pages.dev/ten5.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="Sports" -1="true",Sony Sports Ten 5 HD (1080p)
-#EXTGRP:Sports
-https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
 #EXTINF:-1 tvg-id="SOSKanalPlus.rs@SD" tvg-logo="https://i.imgur.com/9SD40uH.png" group-title="Sports" -1="true",SOS Kanal Plus (720p)
 #EXTGRP:Sports
 https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8
