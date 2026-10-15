@@ -9,5 +9,6 @@ export const DEDUPE_DEFAULT = true;
 export const CLEAN_BAD_PATTERNS_DEFAULT = true;
 export const OUTPUT_FILE = 'out.m3u';
 export const OUTPUT_DIR = 'data';
-export const FILTER_GROUPS_I_DONT_LIKE_DEFAULT = true;
+export const FILTER_GROUPS_I_DONT_LIKE_DEFAULT = false;
+export const REGROUP_BY_SOURCE_DEFAULT = true;
 export const FILTER_GROUPS_FILE = 'groups_i_dont_like.txt';
