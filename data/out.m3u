@@ -1474,9 +1474,9 @@ https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 tvg-id="CBSSportsHQ.us@SD" tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="sports" -1="true",CBS Sports HQ (720p)
 #EXTGRP:sports
 https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8
-#EXTINF:-1 tvg-id="CCTV5Plus.cn@SD" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="sports" -1="true",CCTV-5+
+#EXTINF:-1 tvg-id="CCTV5Plus.cn@SD" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="sports" -1="true",CCTV-5+ (1080p)
 #EXTGRP:sports
-https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p
 #EXTINF:-1 tvg-id="CCTV16.cn@HD" tvg-logo="https://i.imgur.com/ZzV6JQp.png" group-title="sports" -1="true",CCTV-16 HD (1080p)
 #EXTGRP:sports
 http://74.91.26.218:82/live/cctv16hd.m3u8
