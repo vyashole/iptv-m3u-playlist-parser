@@ -556,11 +556,11 @@ https://fta.ektv.in/live/344/master.m3u8
 #EXTINF:-1 tvg-id="MTA2Europe.uk@SD" tvg-logo="https://i.imgur.com/aVts0sz.png" group-title="hin" -1="true",MTA2 Europe (720p)
 #EXTGRP:hin
 https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8
-#EXTINF:-1 tvg-id="MTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MTV/images/LOGO_HD/image.png" group-title="hin" -1="true" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",MTV (India) (396p)
+#EXTINF:-1 tvg-id="MTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143558_ld_h15_aa.png?lock=720x540" group-title="hin" -1="true" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",MTV (India) (396p)
 #EXTGRP:hin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:mtvindia.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MTV.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MTV/images/LOGO_HD/image.png" group-title="hin" -1="true" http-referrer="https://bhoomtv.me/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",MTV (India) HD (396p)
+#EXTINF:-1 tvg-id="MTV.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143558_ld_h15_aa.png?lock=720x540" group-title="hin" -1="true" http-referrer="https://bhoomtv.me/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",MTV (India) HD (396p)
 #EXTGRP:hin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://bhoomtv.me/
@@ -1063,9 +1063,18 @@ https://stream.ottlive.co.in/bigtvmalayalam/index.m3u8
 #EXTINF:-1 tvg-id="CMalayalamTV.ca@SD" tvg-logo="https://i.imgur.com/rpg0bQA.png" group-title="mal" -1="true",C Malayalam TV (1080p)
 #EXTGRP:mal
 https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8
+#EXTINF:-1 tvg-id="CCTVKunnamkulam.in@SD" tvg-logo="https://i.ibb.co/ndPywxZ/cctv-logo.jpg" group-title="mal" -1="true",CCTV Kunnamkulam (720p)
+#EXTGRP:mal
+https://96vd9q4kyxq7-hls-live.5centscdn.com/livestream/f25aeb3e9210967d546a077de6e105e4.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="CCV.in@SD" tvg-logo="https://i.imgur.com/4ss0KfA.png" group-title="mal" -1="true",CCV (480p)
 #EXTGRP:mal
 https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8
+#EXTINF:-1 tvg-id="CityChannelHD.in@SD" tvg-logo="https://play-lh.googleusercontent.com/jVbypmZKBHnQD2xcN_p_6CitA-oxAzm_iU5HePN8mmAppOwH5BJaV5taGNdbsIpUyqM" group-title="mal" -1="true",City Channel HD (1080p)
+#EXTGRP:mal
+https://live.skystream.in/live/citytv2924/index.m3u8
+#EXTINF:-1 tvg-id="CityVisionKannur.in@SD" tvg-logo="https://play-lh.googleusercontent.com/eO1Si1pAb0f-4E5ZTHqOCvIrcVEtNBOgex-Y6lRQTYaV04mbjQpm4oJKmv42CIM5L12bdbmH6Voh7dXZk6ZW=w240-h480" group-title="mal" -1="true",City Vision Kannur (576p)
+#EXTGRP:mal
+https://live.skystream.in/live/citykannurcity/index.m3u8
 #EXTINF:-1 tvg-id="DarshanaTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142774_ld_h15_aa.png?lock=720x540" group-title="mal" -1="true",Darshana TV (576p)
 #EXTGRP:mal
 https://cdn.pishow.tv/ott/live/1453/master.m3u8
@@ -1073,6 +1082,12 @@ https://cdn.pishow.tv/ott/live/1453/master.m3u8
 #EXTGRP:mal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/680/master.m3u8
+#EXTINF:-1 tvg-id="DrishyaTV.in@SD" tvg-logo="https://play-lh.googleusercontent.com/P1gCOSlZjwEzxi6wy4zcvqYwBf6SdTXiGhnuIAIW8lNu9Ka-v28vXz2vUFqwFXQH6mCeFkQdphJVjYK0Qj30hQ=w240-h480-rw" group-title="mal" -1="true",Drishya TV (576p)
+#EXTGRP:mal
+https://live.skystream.in/live/drishya5060/index.m3u8
+#EXTINF:-1 tvg-id="DrisyaTV.in@SD" tvg-logo="https://play-lh.googleusercontent.com/8O2ugQ2n4Y3Mt8j4sfTd52RizgIJwbu7U1mtF3Fk1hDbXc3yIGgvFqriLoO2InOX0ajgwaITdnGJV_w6HRac0Q" group-title="mal" -1="true",Drisya TV (576p)
+#EXTGRP:mal
+https://live.skystream.in/live/drishyakarunagapally/index.m3u8
 #EXTINF:-1 tvg-id="FlowersTVUSA.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/ml/1/1c/Flowers-Onam.png" group-title="mal" -1="true",Flowers TV USA (396p)
 #EXTGRP:mal
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/flowers_nim_https/050522/flowers/playlist.m3u8
@@ -1120,9 +1135,18 @@ https://stream.logichost.in/kannurvision/live/playlist.m3u8
 #EXTINF:-1 tvg-id="KappaTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Kappa_TV.png" group-title="mal" -1="true",Kappa TV (576p)
 #EXTGRP:mal
 https://d1msejlow1t3l4.cloudfront.net/fta/kappatv/playlist.m3u8
+#EXTINF:-1 tvg-id="KasargodVision.in@SD" tvg-logo="https://coakerala.com/wp-content/uploads/2014/11/KSD-VISION-district-channel.jpg" group-title="mal" -1="true",Kasargod Vision (576p)
+#EXTGRP:mal
+https://live.skystream.in/live/kasaragodvsn/index.m3u8
 #EXTINF:-1 tvg-id="KCLTV.in@SD" tvg-logo="https://i.imgur.com/bkp9dIm.png" group-title="mal" -1="true",KCL TV (720p)
 #EXTGRP:mal
 https://kcltv.livebox.co.in/kclhls/live.m3u8
+#EXTINF:-1 tvg-id="KCNKasargod.in@SD" tvg-logo="https://play-lh.googleusercontent.com/sfxGAj8et5iKbygQ7Plp6gSvsvLodM4b7HU0K_1dx_etJMo3FUEIkf0z7KdWTEb-Gwhx5Vz9bQjpB8g_oz6jry0=w240-h480" group-title="mal" -1="true",KCN Kasargod (576p)
+#EXTGRP:mal
+https://live.skystream.in/live/kcnksrgod/index.m3u8
+#EXTINF:-1 tvg-id="KeralaTodayTV.in@SD" tvg-logo="https://play-lh.googleusercontent.com/JpdLqTP2IiQDuLkr_jw0QeeDHfHOPd-vk00pnPF06f95Jca01t7v2BbrSENDeNuHktB2t0EbSfk_XyXvvUAumQ" group-title="mal" -1="true",Kerala Today TV (1080p)
+#EXTGRP:mal
+https://live.skystream.in/live/krlatoday/index.m3u8
 #EXTINF:-1 tvg-id="KeralaVision.in@SD" tvg-logo="https://i.imgur.com/SWNjyyp.png" group-title="mal" -1="true",Kerala Vision (576p)
 #EXTGRP:mal
 https://cdn.pishow.tv/ott/live/243/master.m3u8
@@ -1132,6 +1156,12 @@ https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="MagnavisionTV.uk@SD" tvg-logo="https://i.imgur.com/mUHixbi.png" group-title="mal" -1="true",Magnavision TV (720p)
 #EXTGRP:mal
 https://manatv.akamaized.net/120723/smil:magnavision.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MalabarPlus.in@SD" tvg-logo="https://i.ibb.co/p6kf0FfH/1000151556.png" group-title="mal" -1="true",Malabar Plus (720p)
+#EXTGRP:mal
+http://cloud.logichost.in:1935/live/mplus/index.m3u8
+#EXTINF:-1 tvg-id="MalappuramCableVision.in@SD" tvg-logo="https://cdn.aptoide.com/imgs/f/c/d/fcdcdfe7f3ced7623f252e9ea0080374_icon.png" group-title="mal" -1="true",Malappuram Cable Vision (1080p)
+#EXTGRP:mal
+http://cloud.logichost.in:1935/live/mcvlive/playlist.m3u8
 #EXTINF:-1 tvg-id="ManoramaNews.in@SD" tvg-logo="https://i.imgur.com/adjRrVx.png" group-title="mal" -1="true",Manorama News (1080p)
 #EXTGRP:mal
 https://mmtvlive3.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvAdCampaign3/index.m3u8
@@ -1154,12 +1184,24 @@ https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.m
 #EXTINF:-1 tvg-id="NVision.in@SD" tvg-logo="https://livetv.ashokadigital.net/upload/logo/1739890627_WhatsApp_Image_2025-02-18_at_8.25.19_PM__1_-removebg-preview.png" group-title="mal" -1="true",N Vision (1080p)
 #EXTGRP:mal
 https://ipcloud.live/nvision/nvisionhd/index.m3u8
+#EXTINF:-1 tvg-id="NewVisionHD.in@SD" tvg-logo="https://i.ibb.co/Sw4cdy9b/new-vision-hd.jpg" group-title="mal" -1="true",New Vision HD (576p)
+#EXTGRP:mal
+https://live.skystream.in/live/newvision2924/index.m3u8
 #EXTINF:-1 tvg-id="News18Kerala.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_KERALA/images/LOGO_HD/image.png" group-title="mal" -1="true",News18 Kerala (1080p)
 #EXTGRP:mal
 https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 tvg-id="NewsMalayalam24x7.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_MALAYALAM_24X7/images/LOGO_HD/image.png" group-title="mal" -1="true",News Malayalam 24x7 (1080p)
 #EXTGRP:mal
 https://vglivessai.akamaized.net/ptnr-lg/title-News_Malayalam_LGIndia/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/23b1b63f-0419-4eb7-8816-d502a77d3f50/index.m3u8
+#EXTINF:-1 tvg-id="NMMediaChannelHD.in@SD" tvg-logo="https://play-lh.googleusercontent.com/bS6HNpsLqv-Irw64TaPYqk3o8AlMiA96GJjD8qUfIzgtoeC23CCLrGW5iReGh1jMlP7djBZhxsJ_2wFLWpHB" group-title="mal" -1="true",NM Media Channel HD (1080p)
+#EXTGRP:mal
+https://live.skystream.in/live/newmedia2924/index.m3u8
+#EXTINF:-1 tvg-id="NTVUAEHD.ae@SD" tvg-logo="https://play-lh.googleusercontent.com/YwH6c1AqIM7LFOIBx0taFOmdHeoyIhLChk8PZCEHMtdm06-fK4fmpmsTl9tMjDRHSvOtz6gFKQygccgXQgAVSTE" group-title="mal" -1="true",NTV UAE HD (720p)
+#EXTGRP:mal
+https://stream.logichost.in/NTV/live/chunklist_w833817414.m3u8
+#EXTINF:-1 tvg-id="PeriyarVision.in@SD" tvg-logo="https://play-lh.googleusercontent.com/Oh0y8uEVV7LIlMBig3mi5xthzsUeOMWXxkHh6CpNf8uousEVwTCCEgLnNIYPPOd5aWw5f7lAWOqPqP93y2H7" group-title="mal" -1="true",Periyar Vision (1080p)
+#EXTGRP:mal
+https://stream.onecloudlive.in/periyarvision/periyarvision/index.m3u8
 #EXTINF:-1 tvg-id="PottaDivineTVUSA.us@SD" tvg-logo="https://i.imgur.com/Yx0AnLW.png" group-title="mal" -1="true",Potta-Divine TV USA (480p)
 #EXTGRP:mal
 https://playout7multirtmp.tulix.tv/live21/Stream1/playlist.m3u8
@@ -1200,6 +1242,9 @@ https://livestreamcdn.net:444/ShalomTV/ShalomTV/playlist.m3u8
 #EXTINF:-1 tvg-id="ShekinahTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Shekinah.png" group-title="mal" -1="true",Shekinah TV (1080p)
 #EXTGRP:mal
 https://livetv.timeiptv.in/ShekinahNewsIndia/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="SouthVision.in@SD" tvg-logo="https://play-lh.googleusercontent.com/R8Z8juih4xjZthHZeKnFqJTLFmf-GZfRLvcVHdeX7VNw568mvI6mES5LVbvTlPOSO8qoAjDE01fGy93XKkliyg=w512-h512" group-title="mal" -1="true",South Vision (1080p)
+#EXTGRP:mal
+https://live.skystream.in/live/southvsnklm/index.m3u8
 #EXTINF:-1 tvg-id="Starnet.in@SD" tvg-logo="https://i.imgur.com/J3jB7Kr.png" group-title="mal" -1="true",Starnet (480p)
 #EXTGRP:mal
 https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8
@@ -1209,6 +1254,12 @@ https://d3dt6rg724ecr3.cloudfront.net/SuryaTv/SuryaTV-HDR10-IN-index.m3u8
 #EXTINF:-1 tvg-id="Swantham.in@SD" tvg-logo="https://i.imgur.com/ye6v4GP.png" group-title="mal" -1="true",Swantham (576p)
 #EXTGRP:mal
 http://cloud.logichost.in:1935/SWANTHAM/live/index.m3u8
+#EXTINF:-1 tvg-id="Thanima.in@SD" tvg-logo="https://play-lh.googleusercontent.com/cEXeXLHYTRthQoC8y_7SIr5hWU1gVpuRUc139KMbm-HqdllHs1IYig3voRgXrxG5XmELu95FBhLMEqyjNljHgog" group-title="mal" -1="true",Thanima (1080p)
+#EXTGRP:mal
+https://live.skystream.in/live/thanimatvtvm/index.m3u8
+#EXTINF:-1 tvg-id="UTVHD24x7.in@SD" tvg-logo="https://i.ibb.co/BVR60w26/utv-hd-24x7.jpg" group-title="mal" -1="true",UTV HD 24x7 (1080i)
+#EXTGRP:mal
+https://em4qj6nedyvg-hls-live.wmncdn.net/utv/ab2de115318ae40bdd434e193a2f2e7f.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="UTVPalakkad.in@SD" tvg-logo="https://utvpkd.in/assets/img/logo.png" group-title="mal" -1="true",UTV Palakkad (1080p)
 #EXTGRP:mal
 https://em4qj6nedyvg-hls-live.wmncdn.net/liveunit/89b1e919eed04e59383cf820d644c20e.sdp/playlist.m3u8
@@ -1224,6 +1275,12 @@ http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8
 #EXTINF:-1 tvg-id="WayanadVision.in@SD" tvg-logo="https://i.imgur.com/yF2C4Dt.png" group-title="mal" -1="true",Wayanad Vision (1080p)
 #EXTGRP:mal
 https://online.wayanadvision.in/hls/wayanadvision.m3u8
+#EXTINF:-1 tvg-id="WayanadVisionMovies.in@SD" tvg-logo="https://play-lh.googleusercontent.com/UxJ6sG6LdpaAXZOvR8EJyYa9PVx3gZWzetMe6MKHeguGSyyDHBDzKX5gN6Z75cQCni609w3YyuLSlE5qWPhG-Q" group-title="mal" -1="true",Wayanad Vision Movies (720p)
+#EXTGRP:mal
+https://online.wayanadvision.in/hls/wvmovies.m3u8
+#EXTINF:-1 tvg-id="WayanadVisionPlus.in@SD" tvg-logo="https://i.ibb.co/zTZk83Z3/wayand-vision-plus.jpg" group-title="mal" -1="true",Wayanad Vision Plus (720p)
+#EXTGRP:mal
+https://online.wayanadvision.in/hls/streaming1.m3u8
 #EXTINF:-1 tvg-id="9XJhakaas.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png?lock=720x540" group-title="mar" -1="true",9X Jhakaas (1080p)
 #EXTGRP:mar
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
@@ -1574,6 +1631,15 @@ https://cdn.pishow.tv/ott/live/1161/master.m3u8
 #EXTINF:-1 tvg-id="DeporTV.ar@SD" tvg-logo="https://i.imgur.com/THk9ARS.png" group-title="sports" -1="true",DeporTV (1080p)
 #EXTGRP:sports
 http://158.172.155.130:8000/play/a09y/index.m3u8
+#EXTINF:-1 tvg-id="DigiSport2.ro@SD" tvg-logo="https://i.imgur.com/KWDUi3v.png" group-title="sports" -1="true",Digi Sport 2 (576i)
+#EXTGRP:sports
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fkuruk1.xn--okq6e.shop%2Fkuk2%2Fusergendx0ul1ltsDx9lgcdwqrnd-got.htm
+#EXTINF:-1 tvg-id="DigiSport3.ro@SD" tvg-logo="https://i.imgur.com/T1ci5UK.png" group-title="sports" -1="true",Digi Sport 3 (576i)
+#EXTGRP:sports
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fkuk3%2Fusergendxt1v7slq2rnd-got.htm
+#EXTINF:-1 tvg-id="DigiSport4.ro@SD" tvg-logo="https://i.imgur.com/Knj9I6f.png" group-title="sports" -1="true",Digi Sport 4 (576i)
+#EXTGRP:sports
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fkuk4%2Fusergendk9g3ks42t3n-got.htm
 #EXTINF:-1 tvg-id="DiviSport.ua@SD" tvg-logo="https://i.logos-download.com/114030/29915-s5120-904df224e4c030fefcc45adda448b6e8.png/DiviSport_Logo_2023-s5120.png" group-title="sports" -1="true",DiviSport (1080p)
 #EXTGRP:sports
 http://stream.mcquack.net/457/index.m3u8
@@ -1694,9 +1760,10 @@ https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn-mux/chunks.m3u8
 #EXTINF:-1 tvg-id="ESPNLatinAmerica.us@Colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="sports" -1="true",ESPN Latin America Colombia (1080p)
 #EXTGRP:sports
 http://181.78.211.244:8005/play/a08q/index.m3u8
-#EXTINF:-1 tvg-id="ESPNLatinAmerica.us@Mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="sports" -1="true",ESPN Latin America Mexico (1080p)
+#EXTINF:-1 tvg-id="ESPNLatinAmerica.us@Mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="sports" -1="true" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",ESPN Latin America Mexico
 #EXTGRP:sports
-http://168.228.44.241:9997/play/a06p/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://lilac19.pontiscloud.com/live/gt/ESPN/index.m3u8
 #EXTINF:-1 tvg-id="ESPNPremium.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png" group-title="sports" -1="true",ESPN Premium
 #EXTGRP:sports
 http://45.134.141.161:2200/ARG/ESPN_Premium_Argentina_HD/tracks-v1a1/mono.m3u8
@@ -2169,9 +2236,9 @@ https://jmp2.uk/plu-5ced7d5df64be98e07ed47b6.m3u8
 #EXTINF:-1 tvg-id="NFLNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png" group-title="sports" -1="true",NFL Network (576p)
 #EXTGRP:sports
 https://tvsen6.aynaott.com/nfl/index.m3u8
-#EXTINF:-1 tvg-id="NHLAntenaPlay.ro@SD" tvg-logo="https://assets.antenaplay.ro/2024/10/25/SN0nevshXwKDcZ2Tw1jm.png" group-title="sports" -1="true",NHL AntenaPlay (576i) [Not 24/7]
+#EXTINF:-1 tvg-id="NHLAntenaPlay.ro@SD" tvg-logo="https://assets.antenaplay.ro/2024/10/25/SN0nevshXwKDcZ2Tw1jm.png" group-title="sports" -1="true",NHL AntenaPlay (576p) [Not 24/7]
 #EXTGRP:sports
-https://stream1.antenaplay.ro/promo/nhl-12-1411/chunklist.m3u8
+https://stream1.antenaplay.ro/promo/nhl-2911/chunklist.m3u8
 #EXTINF:-1 tvg-id="NHLNetwork.us@SD" tvg-logo="https://i.imgur.com/UNZ8bef.png" group-title="sports" -1="true",NHL Network (1080p)
 #EXTGRP:sports
 https://nhl-firetv.amagi.tv/playlist.m3u8
@@ -2292,16 +2359,28 @@ https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-a
 #EXTINF:-1 tvg-id="PremierSports.ph@SD" tvg-logo="https://i.imgur.com/BURPHzI.png" group-title="sports" -1="true",Premier Sports (1080p)
 #EXTGRP:sports
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
+#EXTINF:-1 tvg-id="PrimaSport1.ro@SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/52/Prima_Sport_1_%282022-.n.v.%29.png/revision/latest/scale-to-width-down/1000?cb=20240205121905" group-title="sports" -1="true",Prima Sport 1 (576p)
+#EXTGRP:sports
+http://91.235.165.117:8001/play/a07x/index.m3u8
 #EXTINF:-1 tvg-id="PrimaSport1.ro@HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/52/Prima_Sport_1_%282022-.n.v.%29.png/revision/latest/scale-to-width-down/1000?cb=20240205121905" group-title="sports" -1="true" http-referrer="https://rundle.tv/",Prima Sport 1 HD
 #EXTGRP:sports
 #EXTVLCOPT:http-referrer=https://rundle.tv/
 https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk1%2Fusergenrx0cir27aq-got.htm
+#EXTINF:-1 tvg-id="PrimaSport2.ro@SD" tvg-logo="https://i.imgur.com/hROcepe.png" group-title="sports" -1="true",Prima Sport 2 (576p)
+#EXTGRP:sports
+http://91.235.165.117:8001/play/a07y/index.m3u8
 #EXTINF:-1 tvg-id="PrimaSport2.ro@HD" tvg-logo="https://i.imgur.com/hROcepe.png" group-title="sports" -1="true",Prima Sport 2 HD
 #EXTGRP:sports
 https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk2%2Fusergenrnd0clv03fyt-got.htm
+#EXTINF:-1 tvg-id="PrimaSport3.ro@SD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/9/9a/Prima_Sport_3_%282022-.n.v.%29.png/revision/latest/scale-to-width-down/1000?cb=20240205122802" group-title="sports" -1="true",Prima Sport 3 (576p)
+#EXTGRP:sports
+http://91.235.165.117:8001/play/a07z/index.m3u8
 #EXTINF:-1 tvg-id="PrimaSport3.ro@HD" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/9/9a/Prima_Sport_3_%282022-.n.v.%29.png/revision/latest/scale-to-width-down/1000?cb=20240205122802" group-title="sports" -1="true",Prima Sport 3 HD
 #EXTGRP:sports
 https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk3%2Fusergenrx4t0l8sybkr-got.htm
+#EXTINF:-1 tvg-id="PrimaSport4.ro@SD" tvg-logo="https://i.imgur.com/lqaIIhc.png" group-title="sports" -1="true",Prima Sport 4 (576p)
+#EXTGRP:sports
+http://91.235.165.117:8001/play/a080/index.m3u8
 #EXTINF:-1 tvg-id="PrimaSport4.ro@HD" tvg-logo="https://i.imgur.com/lqaIIhc.png" group-title="sports" -1="true",Prima Sport 4 HD
 #EXTGRP:sports
 https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuk4%2Fusergendx3j2x4tqrnd-got.htm
@@ -2594,9 +2673,9 @@ http://88.212.15.50/live/test_rtvs_sport_hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="Sport.uz@SD" tvg-logo="https://i.imgur.com/2WJE9CM.png" group-title="sports" -1="true",Sport (Uzbekistan) (1080p)
 #EXTGRP:sports
 https://stream8.cinerama.uz/1004/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="SportExtra.ro@HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fa/Sport_Extra_horizontal.svg/revision/latest/scale-to-width-down/1000?cb=20220425110755" group-title="sports" -1="true",Sport Extra HD
+#EXTINF:-1 tvg-id="SportExtra.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fa/Sport_Extra_horizontal.svg/revision/latest/scale-to-width-down/1000?cb=20220425110755" group-title="sports" -1="true",Sport Extra (576p)
 #EXTGRP:sports
-http://92.180.26.103/stream/93/index.m3u8
+http://91.235.165.117:8001/play/a087/index.m3u8
 #EXTINF:-1 tvg-id="SportTotalFM.ro@SD" tvg-logo="https://sptfm.ro/wp-content/uploads/2021/05/logo-sport-total-fm-01.png" group-title="sports" -1="true",Sport Total FM (576i)
 #EXTGRP:sports
 https://livesptfm.com/SPTFM/Live/playlist.m3u8
@@ -2645,9 +2724,6 @@ https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3
 #EXTINF:-1 tvg-id="Sportivnyy.ru@SD" tvg-logo="https://i.imgur.com/ujS6mMo.png" group-title="sports" -1="true",Sportivnyy (1080p)
 #EXTGRP:sports
 https://live-3.otcnet.ru/sportivny/index.m3u8
-#EXTINF:-1 tvg-id="SportsTelevision.kp@HD" tvg-logo="https://i.imgur.com/HvFpGeH.png" group-title="sports" -1="true",Sports Television (720p) [Not 24/7]
-#EXTGRP:sports
-https://live.koryocdn.org/sports/index.m3u8
 #EXTINF:-1 tvg-id="SportsGrid.us@SD" tvg-logo="https://i.imgur.com/ulGKX30.png" group-title="sports" -1="true",SportsGrid (1080p)
 #EXTGRP:sports
 https://sportsgrid-tribal.amagi.tv/playlist.m3u8
@@ -2885,9 +2961,9 @@ https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8
 #EXTINF:-1 tvg-id="VoyoEvents.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/df/Voyo_2026.svg/revision/latest/scale-to-width-down/1000?cb=20261006171646" group-title="sports" -1="true",Voyo Events (576i) [Not 24/7]
 #EXTGRP:sports
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus5/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-id="VoyoSport1.ro@HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a3/VoyoSport1.svg" group-title="sports" -1="true",Voyo Sport 1 (1080i)
+#EXTINF:-1 tvg-id="VoyoSport1.ro@HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a3/VoyoSport1.svg" group-title="sports" -1="true",Voyo Sport 1 (1080p)
 #EXTGRP:sports
-https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8
+http://89.45.22.101:8011/play/1/index.m3u8
 #EXTINF:-1 tvg-id="VTV6.vn@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/VTV6_new_logo_2026.webp" group-title="sports" -1="true",VTV6 (720p)
 #EXTGRP:sports
 https://dethich.pw/vtv6/index.m3u8
